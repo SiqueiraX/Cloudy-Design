@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOUDY DESIGN | CONTATO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+
+    <!--SEO-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="creator" content="">
+    <meta name="robots" content="">
+    <!--SEO-->
+
+</head>
+
+<body>
+
+    <header class="menu">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+                    aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Página Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portifolio.html">Portifólio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contato.php">Contato</a>
+                        </li>
+                        <li class="nav-item btn-nav">
+                            <a class="nav-link btn btn-primary btn-sm" href="">Discord</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- container -->
+        </nav>
+        <!-- navbar -->
+    </header>
+    <!-- menu -->
+
+    <section class="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 form">
+                    <h2>ENTRE EM CONTATO CONOSCO!</h2>
+                    <p>Preencha o formulario abaixo e nos envie uma mensagem!</p>
+                    <form action="">
+                        <div><input type="text" name="" id="" required></div>
+                        <div><input type="email" name="" id="" required></div>
+                        <textarea name="" id="" required></textarea>
+                        <div><input type="submit" value="ENVIAR"></div>
+                    </form>
+                </div>
+                <!-- col -->
+                <div class="col-lg-5">
+                    <h2>Outros meios de contato</h2>
+                    <p>Pode nos chamar a qualquer momento!</p>
+                    <div class="outros-contatos">
+                        <h3>Telefone</h3>
+                        <p>(DD) 91919-9031 </p>
+                        <br>
+                        <h3>Acesse nosso Discord</h3>
+                        <a href="">Acesse aqui</a>
+                    </div>
+                </div>
+                <!-- col -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </section>
+    <!-- contato -->
+
+    <footer class="footer text-center pt-0">
+        <div class="footer-main p-5">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h5>CloudyDesign</h5>
+                        <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quasi cumque praesentium.
+                            Iusto natus vel hic repellendus harum accusamus quia deleniti id, reiciendis unde qui alias
+                            atque, minima, eos laboriosam.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h6>CONTATO</h6>
+                        <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p><i class="fas fa-envelope"></i> contato@cloudydesign.com</p>
+                        <p><i class="fab fa-discord"></i> <a href="">discord.gg/algumacoisa</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p>TODOS OS DIREITOS RESERVADOS</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

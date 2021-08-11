@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+html,
+body {
+  background-color: #1d1d1d;
+}
+
+.clear {
+  clear: both;
+}
+
+/* header */
+header.index {
+  height: 100vh;
+  background-image: url("../img/CloudyBackground.jpg");
+  background-size: 100% 100%;
+  /* background-attachment: fixed; */
+}
+nav .nav-item a {
+  font-size: 20px;
+}
+nav .nav-item.active {
+  border-bottom: 2px solid #007bff !important;
+}
+nav .nav-item:hover {
+  border-bottom: 2px solid #007bff !important;
+}
+nav .nav-item.btn-nav {
+  border: 1px solid transparent;
+}
+nav .nav-item .btn {
+  border-radius: 900px;
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+header nav ul li {
+  padding: 0 15px;
+}
+header nav .navbar-brand {
+  width: 100px;
+  height: 100px;
+  background-image: url("../img/NUVEM\ SEM\ FUNDO.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.header-text {
+  padding-top: 150px;
+}
+.intro h1 {
+  font-size: 120px;
+  font-weight: bold;
+  color: #fff;
+}
+.intro h1 span {
+  font-weight: 300;
+}
+.descricao p {
+  font-size: 21px;
+  color: #fff;
+}
+/* === */
+
+/* quem somos */
+.quem-somos .texto {
+  padding-top: 125px;
+}
+.quem-somos .texto h2 {
+  font-size: 40px;
+  color: #007bff !important;
+  font-weight: bold;
+}
+.quem-somos .texto p {
+  color: #fff;
+}
+.quem-somos img {
+  width: 100%;
+}
+/* === */
+
+.support {
+  display: flex;
+  background-color: #007bff;
+  padding: 25px 0 0px 0;
+  align-items: center;
+}
+.support img {
+  width: 20%;
+  padding-left: 50px;
+}
+.support .text {
+  /* padding: 175px 0; */
+  margin: 0 auto;
+  width: 50%;
+  color: #fff;
+  text-align: center;
+}
+.support .text h2 {
+  font-weight: bolder;
+}
+
+/* sobre */
+.equipe {
+  padding: 5% 0;
+}
+.equipe h2 {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.equipe span {
+  color: #007bff !important;
+}
+.equipe .row .col-lg-4 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.equipe h5 {
+  margin-top: 10px;
+  color: #fff;
+}
+.equipe i {
+  font-size: 150px;
+  color: #007bff !important;
+}
+/* === */
+
+/* portifolio */
+.portifolio img {
+  width: 100%;
+  opacity: 0.16;
+}
+.portifolio img:hover {
+  opacity: 1;
+}
+.portifolio .row .col-4 {
+  padding: 0 !important;
+}
+/* === */
+
+/* contato */
+.contato {
+  padding: 5% 0;
+  color: #fff;
+}
+.contato h2 {
+  margin-bottom: 100px;
+  text-align: center;
+  color: #007bff !important;
+}
+.contato .form form input[type="text"],
+.contato .form form input[type="email"],
+.contato .form form textarea,
+.contato .form form input[type="submit"] {
+  width: 90%;
+  padding: 20px 50px;
+  margin: 10px;
+  resize: none;
+  outline: none;
+  color: #2b8bc5;
+  border: 1px solid #2b8bc5;
+  background-color: transparent;
+  border-radius: 119.04px 0 119.04px 0;
+  transition: 0.5s;
+}
+.contato .form form input[type="submit"]:hover {
+  color: #1d1d1d;
+  background-color: #007bff !important;
+}
+.contato .form form textarea {
+  height: 225px;
+  border-radius: 95px 0 95px 0;
+}
+.contato .imagem img {
+  width: 100%;
+}
+/* === */
+
+/* footer */
+footer {
+  color: #fff;
+  background-color: #101010;
+}
+footer hr {
+  background-color: #007bff !important;
+}
+footer .footer-copyright {
+  background-color: #090909;
+  padding: 10px 0;
+}
+footer .footer-copyright p {
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+  margin: 0;
+}
+/* === */
