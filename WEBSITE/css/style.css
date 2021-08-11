@@ -18,7 +18,9 @@ body {
 header.index {
   height: 100vh;
   background-image: url("../img/CloudyBackground.jpg");
-  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   /* background-attachment: fixed; */
 }
 nav .nav-item a {
@@ -54,7 +56,7 @@ header nav .navbar-brand {
   padding-top: 150px;
 }
 .intro h1 {
-  font-size: 120px;
+  font-size: 7vw;
   font-weight: bold;
   color: #fff;
 }
@@ -62,7 +64,7 @@ header nav .navbar-brand {
   font-weight: 300;
 }
 .descricao p {
-  font-size: 21px;
+  font-size: 2vw;
   color: #fff;
 }
 /* === */
@@ -84,25 +86,29 @@ header nav .navbar-brand {
 }
 /* === */
 
-.support {
+.suporte {
   display: flex;
   background-color: #007bff;
   padding: 25px 0 0px 0;
   align-items: center;
 }
-.support img {
+.suporte img {
   width: 20%;
   padding-left: 50px;
 }
-.support .text {
+.suporte .text {
   /* padding: 175px 0; */
   margin: 0 auto;
   width: 50%;
   color: #fff;
   text-align: center;
 }
-.support .text h2 {
+.suporte .text h2 {
   font-weight: bolder;
+}
+.suporte .btn {
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* sobre */
@@ -131,8 +137,25 @@ header nav .navbar-brand {
 /* === */
 
 /* portifolio */
+.portifolio {
+  width: 100%;
+  max-width: 1350px;
+  margin: auto;
+  padding: 100px 20px 200px 20px;
+}
+.portifolio .galeria {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  /* overflow: hidden; */
+  /* cursor: pointer; */
+  justify-content: center;
+}
+.portifolio .galeria .image {
+  flex: 25%;
+}
 .portifolio img {
   width: 100%;
+  height: 100%;
   opacity: 0.16;
 }
 .portifolio img:hover {
@@ -200,3 +223,24 @@ footer .footer-copyright p {
   margin: 0;
 }
 /* === */
+
+@media screen and (max-width: 960px) {
+  .suporte img {
+    display: none;
+  }
+  .portifolio .galeria .image {
+    flex: 33.33%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portifolio .galeria .image {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .portifolio .galeria .image {
+    flex: 100%;
+  }
+}
