@@ -171,36 +171,46 @@ header nav .navbar-brand {
   padding: 5% 0;
   color: #fff;
 }
-.contato h2 {
-  margin-bottom: 100px;
+.contato .text {
+  padding: 0 0 55px 0;
   text-align: center;
-  color: #007bff !important;
 }
-.contato .form form input[type="text"],
-.contato .form form input[type="email"],
-.contato .form form textarea,
-.contato .form form input[type="submit"] {
-  width: 90%;
-  padding: 20px 50px;
-  margin: 10px;
+.contato .text h2 {
+  color: #007bff;
+}
+.contato .row {
+  align-items: center;
+}
+.contato input,
+textarea {
+  outline: none !important;
+}
+.contato input[type="text"],
+.contato input[type="email"],
+.contato input[type="submit"],
+.contato textarea {
+  width: 65%;
+  border-radius: 15px;
+  padding: 10px;
   resize: none;
+  /* background-color: transparent; */
+  color: #fff;
+  background-color: #1d1d1d;
+  margin: 5px 0;
+  border: none;
+  box-shadow: 2px 2px 0px 1px rgba(0, 94, 182, 0.521);
+}
+.contato textarea {
+  height: 200px;
+}
+.contato input[type="submit"] {
+  background: #11163f;
   outline: none;
-  color: #2b8bc5;
-  border: 1px solid #2b8bc5;
-  background-color: transparent;
-  border-radius: 119.04px 0 119.04px 0;
+  border: none;
   transition: 0.5s;
 }
-.contato .form form input[type="submit"]:hover {
-  color: #1d1d1d;
-  background-color: #007bff !important;
-}
-.contato .form form textarea {
-  height: 225px;
-  border-radius: 95px 0 95px 0;
-}
-.contato .imagem img {
-  width: 100%;
+.contato input[type="submit"]:hover {
+  background: #0069c5;
 }
 /* === */
 
